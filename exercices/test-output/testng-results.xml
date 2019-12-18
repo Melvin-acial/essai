@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25136" started-at="2019-12-17T14:47:03Z" finished-at="2019-12-17T14:47:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25136" started-at="2019-12-17T14:47:03Z" finished-at="2019-12-17T14:47:28Z">
+      <class name="acial.selenium.exercices.Exercice3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="setUp" is-config="true" duration-ms="7100" started-at="2019-12-17T14:47:03Z" finished-at="2019-12-17T14:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="testLogin" duration-ms="1780" started-at="2019-12-17T14:47:10Z" finished-at="2019-12-17T14:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testAjouterEmploy(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="testAjouterEmploy" duration-ms="4631" started-at="2019-12-17T14:47:12Z" data-provider="salaries" finished-at="2019-12-17T14:47:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zinedine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zidane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3601]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAjouterEmploy -->
+        <test-method status="PASS" signature="testAjouterEmploy(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="testAjouterEmploy" duration-ms="4288" started-at="2019-12-17T14:47:16Z" data-provider="salaries" finished-at="2019-12-17T14:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trésor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marius]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3602]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAjouterEmploy -->
+        <test-method status="PASS" signature="testSupprimerEmploy(java.lang.String)[pri:3, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="testSupprimerEmploy" duration-ms="3144" started-at="2019-12-17T14:47:21Z" data-provider="Identifiant" finished-at="2019-12-17T14:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3601]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupprimerEmploy -->
+        <test-method status="PASS" signature="testSupprimerEmploy(java.lang.String)[pri:3, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="testSupprimerEmploy" duration-ms="2752" started-at="2019-12-17T14:47:24Z" data-provider="Identifiant" finished-at="2019-12-17T14:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3602]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupprimerEmploy -->
+        <test-method status="PASS" signature="testLogout()[pri:4, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="testLogout" duration-ms="638" started-at="2019-12-17T14:47:27Z" finished-at="2019-12-17T14:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:acial.selenium.exercices.Exercice3@3bfdc050]" name="tearDown" is-config="true" duration-ms="764" started-at="2019-12-17T14:47:27Z" finished-at="2019-12-17T14:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- acial.selenium.exercices.Exercice3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
